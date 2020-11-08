@@ -1,21 +1,11 @@
 package com.caretakermc.dementiamod;
 
 import com.caretakermc.dementiamod.proxy.CommonProxy;
-
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.settings.GameSettings;
-import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import net.minecraftforge.fml.common.gameevent.TickEvent.WorldTickEvent;
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.world.WorldEvent;
-
-import org.apache.logging.log4j.Logger;
 
 @Mod(modid = DementiaMod.MODID, name = DementiaMod.NAME, version = DementiaMod.VERSION)
 public class DementiaMod {
