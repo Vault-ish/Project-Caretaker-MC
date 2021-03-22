@@ -1,0 +1,10 @@
+{
+  "parent": "dementiamod:block/grass_stage_1",
+  "textures": {
+    "particle": "blocks/dirt",
+    "bottom": "dementiamod:blocks/grass_stage_1_bottom",
+    "top": "dementiamod:blocks/grass_stage_1_top",
+    "side": "dementiamod:blocks/grass_stage_1_side",
+    "overlay": "dementiamod:blocks/grass_stage_1_side_overlay"
+  }
+}
